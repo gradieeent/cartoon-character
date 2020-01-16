@@ -1,0 +1,56 @@
+body{
+margin: 0;
+font-family: 'Varela Round', sans-serif;
+}
+
+header{
+background-color:#5DADE2;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+header h1{
+color:white;
+font-family: 'Sniglet', cursive;
+font-size: 67px;
+}
+
+header img{
+border-radius: 160px;
+width: 300px;
+border: 10px solid;
+color: white;
+}
+
+main{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+main img{
+max-width: 100%;
+border-radius: 10px;
+}
+
+main h2{
+font-family: 'Sniglet', cursive;
+margin-bottom: -20px;
+font-size: 50px;
+}
+
+main p{
+font-family: 'Varela Round', sans-serif;
+font-size: 21px;
+}
+
+ul, li{
+font-size: 21px;
+}
+
+a:hover{
+text-decoration: none;
+background-color: tomato;
+}
+

@@ -1,13 +1,17 @@
 <html>
     <head>
         <link rel="icon" href="img/jeff-favicon.jpeg">
+        <script type="text/javascript" src="sound-mouseover.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/hero.css">
+        <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
         <title>Jeff</title>
     </head>
     <body>
         <!--Cabecera-->
         <header>
             <img src="img/jeff2.png">
-            <h1>Don't touch my French fries!</h1>
+            <h1>Jeff Randell</h1>
          </header>
 
          <!--main element-->
@@ -34,12 +38,25 @@
              <p>Jeff has some friends. His best friend is Clarence. They often play or make
                  mischiefs with Sumo. You can know them more below.
              </p>
+             <!--lista
             <ul>
                 <li><a href="https://clarence.fandom.com/wiki/Clarence_Wendle" target="_blank">Clarence</a></li>
                 <li><a href="https://clarence.fandom.com/wiki/Ryan_Sumouski" target="_blank">Sumo</a></li>
             </ul>
-         </main>
-         <!--Footer-->
+            -->
+            	
+            <a href="about.htm" onmouseover="playclip();"></a>><img src="img/clarence1.jpg"></a>
+            <br>
+            <br>
+            <a href="https://www.cartoonnetwork.com.mx/show/clarence"><img src="img/sumo1.png"></a>
+            <!--Footer-->
          <p>This website was created during a <a target="_blank" href="https://taptapkaboom.com">Tap tap kaboom</a> class &copy; Alex</p>
+         <audio>
+            <source src="click.mp3">
+            <source src="click.ogg">
+            </audio>
+            <div id="sounddiv"><bgsound id="sound"></div>
+         </main>
+         
     </body>
 </html>
